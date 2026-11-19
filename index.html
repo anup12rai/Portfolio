@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniruddha Rai — AI/ML Engineer & Python Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Aniruddha Rai, AI/ML Engineer and Python Developer. Projects, skills and experience in Python, AI integrations, backend development and IoT."
+    />
+    <meta name="author" content="Aniruddha Rai" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Aniruddha Rai — AI/ML Engineer & Python Developer" />
+    <meta
+      property="og:description"
+      content="Building intelligent software solutions through Python, AI and modern engineering."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Aniruddha Rai — AI/ML Engineer & Python Developer" />
+    <meta
+      name="twitter:description"
+      content="Building intelligent software solutions through Python, AI and modern engineering."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme');
+          var dark =
+            stored === 'dark' ||
+            (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (dark) document.documentElement.classList.add('dark');
+          document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+        } catch (e) {}
+      })();
+    </script>
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

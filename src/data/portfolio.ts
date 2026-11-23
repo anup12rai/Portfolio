@@ -84,13 +84,13 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/anup12rai/treaking-website.git',
   },
   {
-    name: 'EduAdapt — Education Platform',
+    name: 'Parking Management System',
     description:
-      'An educational web application focused on backend functionality and database integration.',
-    image: 'https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Python', 'Flask', 'MySQL'],
-    liveUrl: 'https://example.com/project-two',
-    githubUrl: 'https://github.com/anup12rai',
+      'A web-based parking management application built to manage vehicle entries and exits, parking slot availability, vehicle records, parking history, and automated parking fee calculations with database integration.',
+    image: 'parking.png',
+    technologies: ['Python', 'Flask', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    liveUrl: 'https://parking-management-qhen.onrender.com',
+    githubUrl: 'https://github.com/anup12rai/Parking-Management',
   },
   {
     name: 'ESP32 IoT Projects',
